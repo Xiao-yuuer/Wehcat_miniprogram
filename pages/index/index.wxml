@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<view>
+  <test>input first number:</test>
+  <input type="number"/>
+</view>
+<view>
+  <test>input second number:</test>
+  <input type="number"/>
+</view>
+<button type="primary">
+compare
+</button>
+<view>
+  <test>Consequence:</test>
+</view>
