@@ -7,9 +7,13 @@
   <test>input second number:</test>
   <input type="number"/>
 </view>
-<button type="primary">
+<button type="primary" bindtap="compare">
 compare
 </button>
 <view>
   <test>Consequence:</test>
+</view>
+<view bindtap="viewtap" id="outer">
+outer
+<view id="inter">inter</view>
 </view>

@@ -1,5 +1,11 @@
 {
   "pages":[
-    "pages/index/index"
-  ]
+    "pages/index/index",
+    "pages/test/test"
+  ],
+  "window":{
+    "navigationBarTitleText":"Number Conparison",
+    "navigationBarBackgroundColor":"#369"
+  },
+  "debug":true
 }

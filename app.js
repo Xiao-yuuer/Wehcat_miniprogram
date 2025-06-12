@@ -1,2 +1,22 @@
 // app.js
-App({})
+App({
+  onLaunch(options){
+    console.log('onLaunch执行')
+    console.log(options)
+  },
+  onShow(options){
+    console.log('onShow执行')
+    console.log(options)
+  },
+  onHide(){
+    console.log('ohHide执行')
+  },
+  onError(error){
+    console.log('onError执行')
+    console.log(error)
+  },
+  onPageNotFound(options){
+    console.log('onPAgeNotFound执行')
+    console.log(options)
+  }
+})

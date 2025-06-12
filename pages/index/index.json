@@ -1,4 +1,4 @@
   {
-    "navigationBarTitleText":"Number Conparison",
-    "navigationBarBackgroundColor":"#369"
+   " enablePullDownRefresh":true,
+    "onReachBottonDistance":true
   }
