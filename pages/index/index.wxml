@@ -1,17 +1,28 @@
 <!--pages/index/index.wxml-->
+<form bindsubmit="formcompare">
 <view>
   <test>input first number:</test>
-  <input type="number"/>
+  <input type="number" 
+ 
+  name="num1"
+  />
 </view>
 <view>
   <test>input second number:</test>
-  <input type="number"/>
+  <input type="number" 
+
+  name="num2"
+  />
 </view>
-<button type="primary" bindtap="compare">
+
+<button type="primary" 
+
+form-type="submit">
 compare
 </button>
+</form>
 <view>
-  <test>Consequence:</test>
+  <test>Consequence:{{result}}</test>
 </view>
 <view bindtap="viewtap" id="outer">
 outer
